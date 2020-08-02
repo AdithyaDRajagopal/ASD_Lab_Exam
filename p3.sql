@@ -1,0 +1,4 @@
+SELECT Dish_id,COUNT(*)
+FROM Orders
+GROUP BY Dish_id
+ORDER BY COUNT(*) DESC;

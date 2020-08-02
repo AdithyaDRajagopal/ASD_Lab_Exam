@@ -1,0 +1,2 @@
+SELECT COST+(COST*GST)/100 AS TotalCost
+FROM Dish;
